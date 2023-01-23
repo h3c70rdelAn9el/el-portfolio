@@ -12,7 +12,7 @@ import { SiAlpinedotjs, SiTailwindcss } from 'react-icons/si'
 import { SkillsCard } from './SkillsCard'
 const Skills = () => {
     return (
-        <div className="w-full p-2 mt-6">
+        <div className="w-full p-2 mt-6" id="skills">
             <div className="flex flex-col justify-center h-full max-w-5xl mx-auto">
                 <p className="pb-8 text-3xl font-bold text-center">Skills</p>
                 <div className="grid grid-cols-2 gap-2 mx-auto sm:grid-cols-2 lg:grid-cols-3 md:gap-10">

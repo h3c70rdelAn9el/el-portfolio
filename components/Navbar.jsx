@@ -6,7 +6,8 @@
 
 // export default Navbar
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
+import { Link } from 'react-scroll'
 import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -55,8 +56,29 @@ const Navbar = () => {
                     </div>
                     <div className="relative w-full">
                         <ul className="flex-row justify-end hidden w-full gap-8 pr-8 uppercase md:flex">
-                            <Link href="/about">
-                                <li className="">About</li>
+                            <Link
+                                activeClass="active"
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                offset={-100}
+                                duration={500}
+                                className="cursor-pointer"
+                                // onSetActive={this.handleSetActive}
+                            >
+                                Skills
+                            </Link>
+                            <Link
+                                activeClass="active"
+                                to="bio"
+                                spy={true}
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="cursor-pointer"
+                                // onSetActive={this.handleSetActive}
+                            >
+                                About
                             </Link>
                             <Link href="/projects">
                                 <li className="">Projects</li>
