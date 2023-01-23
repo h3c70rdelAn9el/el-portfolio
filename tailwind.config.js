@@ -12,6 +12,9 @@ module.exports = {
                 primary: '#2C74B3',
                 secondary: '#144272',
             },
+            backgroundImage: {
+                keyboard: "url('../public/assets/images/keyboard.jpeg')",
+            },
         },
     },
     plugins: [],

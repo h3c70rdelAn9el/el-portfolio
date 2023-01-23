@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-slate-200 text-slate-800 tracking-wide;
+        @apply tracking-wide bg-slate-200 text-slate-800;
     }
 
     h1,
@@ -25,6 +25,10 @@
     }
 
     button {
-        @apply shadow-xl shadow-gray-500 rounded-xl uppercase px-4 py-2 bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-blue-800 hover:text-white;
+        @apply px-4 py-2 uppercase shadow-xl shadow-gray-500 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-blue-800 hover:text-white;
     }
+}
+
+.keyboard {
+    background-image: url('/images/keyboard.jpg');
 }
