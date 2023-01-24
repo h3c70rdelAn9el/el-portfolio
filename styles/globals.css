@@ -31,10 +31,16 @@
 
 .keyboard {
     background-image: url('/images/keyboard.jpg');
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    height: 200px !important;
 }
 
-.active {
+/* .active {
     border-bottom: 3px solid #000;
+<<<<<<< HEAD
 }
 
 .waviy {
@@ -55,3 +61,6 @@
         transform: rotateY(360deg);
     }
 }
+=======
+} */
+>>>>>>> hector-dev

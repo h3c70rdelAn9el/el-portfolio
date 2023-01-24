@@ -82,6 +82,7 @@ const Skills = () => {
                         style={{ color: '#ffffff', border: 'white' }}
                     />
 
+<<<<<<< HEAD
                     <SkillsCard
                         name="HTML"
                         icon={FaHtml5}
@@ -97,6 +98,15 @@ const Skills = () => {
                             style={{
                                 color: '#f7df1e',
                                 border: '1px solid #f7df1e',
+=======
+                    <div className="hidden lg:block">
+                        <SkillsCard
+                            name="HTML"
+                            icon={FaHtml5}
+                            style={{
+                                color: '#e34c26',
+                                border: '1px solid #e34c26',
+>>>>>>> hector-dev
                             }}
                         />
                     </div>

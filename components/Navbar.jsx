@@ -90,8 +90,16 @@ const Navbar = () => {
                                 onSetActive={handleSetActive}>
                                 About
                             </Link>
-                            <Link href="/projects">
-                                <li className="">Projects</li>
+                            <Link
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}
+                                className="cursor-pointer"
+                                onSetActive={handleSetActive}>
+                                Projects
                             </Link>
                         </ul>
                         <div
@@ -104,13 +112,22 @@ const Navbar = () => {
                 </div>
 
                 {/* <div className="fixed top-0 left-0 w-full h-screen bg-gray-600 opacity-80"> */}
-                <div className={nav ? '' : ''}>
+                <div
+                    className={
+                        nav
+                            ? 'md:hidden fixed left-0 top-0 h-32 bg-gray-600 opacity-90 w-full duration-100 ease-in-out'
+                            : ''
+                    }>
                     <div
                         className={
                             nav
-                                ? ' fixed left-0 top-0 w-[100%] sm:w-[100%] h-28 bg-gray-700 p-10 ease-in-out duration-300  z-[99999] items-center'
-                                : 'fixed left-0 top-[-100%] w-[100%] sm:w-[70%] h-28 bg-gray-700 p-10 ease-in duration-300  z-[99999] items-center'
+                                ? ' fixed left-0 top-0 w-[100%] sm:w-[70%] h-32 bg-gray-700 p-10 ease-in-out duration-300  z-[99999]'
+                                : // : 'fixed left-[-100%] top-0 w-[85%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
+                                  'fixed top-[-100%]  w-[100%] sm:w-[70%] h-32 bg-gray-700 p-10 ease-in-out duration-400  z-[99999]'
                         }>
+                        <div className="relative flex flex-row justify-end w-full">
+                            <div
+                                className="p-2 text-black bg-gray-400 rounded-full hover:cursor-pointer"
                         <div className="relative flex flex-row w-full">
                             <div className="flex flex-row justify-between w-full text-white uppercase">
                                 <div>
@@ -165,21 +182,59 @@ const Navbar = () => {
                             </div>
                         </div> */}
                         <div className="">
-                            {/* <div className="flex flex-row text-white uppercase">
-                                <ul className="flex flex-row gap-12 mx-auto text-center ">
+                            <div className="flex flex-col text-white uppercase">
+                                <ul className="block mx-auto mt-48 text-center">
                                     <Link href="/about" className="w-10">
                                         <li className="mb-10 text-white hover:text-black">
                                             About
                                         </li>
                                     </Link>
-                                    <Link href="/projects" className="w-10">
+                                    <Link href="/projects" className="">
                                         <li className="text-white hover:text-black">
                                             Projects
                                         </li>
                                     </Link>
                                 </ul>
-                            </div> */}
-                        </div>
+                            </div>
+                        </div> */}
+                        <ul className="flex flex-row justify-center w-full gap-3 mx-auto text-gray-200 uppercase">
+                            <Link
+                                activeClass="active"
+                                onClick={handleNav}
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}
+                                className="cursor-pointer"
+                                onSetActive={handleSetActive}>
+                                Skills
+                            </Link>
+                            <Link
+                                activeClass="active"
+                                onClick={handleNav}
+                                to="bio"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}
+                                className="cursor-pointer"
+                                onSetActive={handleSetActive}>
+                                About
+                            </Link>
+                            <Link
+                                activeClass="active"
+                                onClick={handleNav}
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}
+                                className="cursor-pointer"
+                                onSetActive={handleSetActive}>
+                                Projects
+                            </Link>
+                        </ul>
 
                         {/* TODO:   ADD SOCIAL LINKS */}
                     </div>
