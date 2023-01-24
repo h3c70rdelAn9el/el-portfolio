@@ -82,14 +82,16 @@ const Skills = () => {
                         style={{ color: '#ffffff', border: 'white' }}
                     />
 
-                    <SkillsCard
-                        name="HTML"
-                        icon={FaHtml5}
-                        style={{
-                            color: '#e34c26',
-                            border: '1px solid #e34c26',
-                        }}
-                    />
+                    <div className="hidden lg:block">
+                        <SkillsCard
+                            name="HTML"
+                            icon={FaHtml5}
+                            style={{
+                                color: '#e34c26',
+                                border: '1px solid #e34c26',
+                            }}
+                        />
+                    </div>
                     {/* <div className="shadow-xl">
                         <p>Vue</p>
                         <FaReact className="text-6xl" />
