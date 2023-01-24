@@ -104,24 +104,59 @@ const Navbar = () => {
                 </div>
 
                 {/* <div className="fixed top-0 left-0 w-full h-screen bg-gray-600 opacity-80"> */}
-                <div
-                    className={
-                        nav
-                            ? 'md:hidden fixed left-0 top-0 h-screen bg-gray-600 opacity-90 w-full duration-200 ease-in-out'
-                            : ''
-                    }>
+                <div className={nav ? '' : ''}>
                     <div
                         className={
                             nav
-                                ? ' fixed left-0 top-0 w-[85%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
-                                : 'fixed left-[-100%] top-0 w-[85%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
+                                ? ' fixed left-0 top-0 w-[100%] sm:w-[100%] h-28 bg-gray-700 p-10 ease-in-out duration-300  z-[99999] items-center'
+                                : 'fixed left-0 top-[-100%] w-[100%] sm:w-[70%] h-28 bg-gray-700 p-10 ease-in duration-300  z-[99999] items-center'
                         }>
                         <div className="relative flex flex-row w-full">
-                            <div
+                            <div className="flex flex-row justify-between w-full text-white uppercase">
+                                <div>
+                                    <ul className="flex flex-row gap-12 pt-1 mx-auto text-center">
+                                        <Link
+                                            onClick={handleNav}
+                                            activeClass="active"
+                                            to="skills"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-150}
+                                            duration={500}
+                                            className="cursor-pointer hover:text-black"
+                                            onSetActive={handleSetActive}>
+                                            Skills
+                                        </Link>
+                                        <Link
+                                            activeClass="active"
+                                            onClick={handleNav}
+                                            to="bio"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-150}
+                                            duration={500}
+                                            className="cursor-pointer"
+                                            onSetActive={handleSetActive}>
+                                            About
+                                        </Link>
+                                        <Link href="/projects" className="w-10">
+                                            <li className="text-white hover:text-black">
+                                                Projects
+                                            </li>
+                                        </Link>
+                                    </ul>
+                                </div>
+                                <div
+                                    className="p-2 text-black bg-gray-400 rounded-full hover:cursor-pointer"
+                                    onClick={handleNav}>
+                                    <AiOutlineClose />
+                                </div>
+                            </div>
+                            {/* <div
                                 className="p-2 text-black bg-gray-400 rounded-full ml-96 hover:cursor-pointer"
                                 onClick={handleNav}>
                                 <AiOutlineClose />
-                            </div>
+                            </div> */}
                         </div>
                         {/* <div class="relative h-6 w-full justify-between border border-red-500">
                             <div class=""></div>
@@ -130,8 +165,8 @@ const Navbar = () => {
                             </div>
                         </div> */}
                         <div className="">
-                            <div className="flex flex-col text-white uppercase">
-                                <ul className="block mx-auto mt-48 text-center">
+                            {/* <div className="flex flex-row text-white uppercase">
+                                <ul className="flex flex-row gap-12 mx-auto text-center ">
                                     <Link href="/about" className="w-10">
                                         <li className="mb-10 text-white hover:text-black">
                                             About
@@ -143,7 +178,7 @@ const Navbar = () => {
                                         </li>
                                     </Link>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* TODO:   ADD SOCIAL LINKS */}
