@@ -40,6 +40,11 @@ const Navbar = () => {
         setNav(!nav)
     }
 
+    const handleSetActive = (to) => {
+        // apply active class to the current link
+        console.log(to)
+    }
+
     return (
         <div className="relative">
             <div className="fixed w-full h-20 z-[99999] bg-primary shadow-xl">
@@ -64,8 +69,7 @@ const Navbar = () => {
                                 offset={-100}
                                 duration={500}
                                 className="cursor-pointer"
-                                // onSetActive={this.handleSetActive}
-                            >
+                                onSetActive={handleSetActive}>
                                 Skills
                             </Link>
                             <Link
@@ -76,8 +80,7 @@ const Navbar = () => {
                                 offset={50}
                                 duration={500}
                                 className="cursor-pointer"
-                                // onSetActive={this.handleSetActive}
-                            >
+                                onSetActive={handleSetActive}>
                                 About
                             </Link>
                             <Link href="/projects">
