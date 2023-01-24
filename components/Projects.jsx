@@ -23,8 +23,9 @@ const Projects = () => {
                                     Personal Site
                                 </h3>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Personal site built with Next.js and
+                                    Tailwind CSS. Utilized React Hooks and
+                                    Next.js API routes and deployed to Vercel.
                                 </p>
                             </div>
                         </div>
@@ -44,8 +45,11 @@ const Projects = () => {
                                     Animation.com
                                 </h3>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Worked with a team in the development of an
+                                    NFT website built with Laravel, AlpineJS,
+                                    and Tailwind CSS. Utilized Laravel Jetstream
+                                    for authentication and Vue Router for
+                                    navigation.
                                 </p>
                             </div>
                         </div>
@@ -65,8 +69,8 @@ const Projects = () => {
                                     Pineapplesupport.org
                                 </h3>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Developed and designed web application for
+                                    therapists built with Laravel.
                                 </p>
                             </div>
                         </div>
@@ -89,8 +93,9 @@ const Projects = () => {
                                     Personal Project
                                 </p>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Personal project to display an art gallery.
+                                    Built with Vue, Tailwind,Nuxt, and deployed
+                                    to Netlify.
                                 </p>
                             </div>
                         </div>
@@ -114,8 +119,8 @@ const Projects = () => {
                                     Personal Project
                                 </p>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Project for Musician utilzing Gridsome, Vue,
+                                    and deployed to Netlify.
                                 </p>
                             </div>
                         </div>
@@ -138,8 +143,9 @@ const Projects = () => {
                                     Personal Project
                                 </p>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Personal project to display an art store.
+                                    Built with React, Gatsby, and utilized
+                                    Bootstrap and deployed to Netlify.
                                 </p>
                             </div>
                         </div>
@@ -159,8 +165,7 @@ const Projects = () => {
                                     My Github
                                 </h3>
                                 <p className="mt-1 text-sm text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Quisquam, quod.
+                                    Check out my personal Github.
                                 </p>
                             </div>
                         </div>

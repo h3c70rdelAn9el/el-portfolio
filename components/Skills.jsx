@@ -15,7 +15,7 @@ const Skills = () => {
         <div className="w-full p-2 mt-6" id="skills">
             <div className="flex flex-col justify-center h-full max-w-5xl mx-auto">
                 <p className="pb-8 text-3xl font-bold text-center">Skills</p>
-                <div className="grid grid-cols-2 gap-2 p-16 pt-0 mx-auto md:p-0 sm:grid-cols-2 md:grid-cols-3 md:gap-10">
+                <div className="grid grid-cols-2 gap-2 p-2 pt-0 mx-auto lg:p-16 md:p-0 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                     <SkillsCard
                         name="React"
                         icon={FaReact}
@@ -82,31 +82,13 @@ const Skills = () => {
                         style={{ color: '#ffffff', border: 'white' }}
                     />
 
-<<<<<<< HEAD
-                    <SkillsCard
-                        name="HTML"
-                        icon={FaHtml5}
-                        style={{
-                            color: '#e34c26',
-                            border: '1px solid #e34c26',
-                        }}
-                    />
-                    <div className="md:hidden">
-                        <SkillsCard
-                            name="JavaScript"
-                            icon={FaHtml5}
-                            style={{
-                                color: '#f7df1e',
-                                border: '1px solid #f7df1e',
-=======
-                    <div className="hidden lg:block">
+                    <div className="hidden md:block">
                         <SkillsCard
                             name="HTML"
                             icon={FaHtml5}
                             style={{
                                 color: '#e34c26',
                                 border: '1px solid #e34c26',
->>>>>>> hector-dev
                             }}
                         />
                     </div>
