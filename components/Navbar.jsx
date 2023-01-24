@@ -50,7 +50,14 @@ const Navbar = () => {
             <div className="fixed w-full h-20 z-[99999] bg-primary shadow-xl">
                 <div className="flex items-center justify-between w-full h-full px-2">
                     <div className="w-24">
-                        <Link href="/">
+                        <Link
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={700}
+                            className="cursor-pointer"
+                            href="/">
                             <Image
                                 src="/../public/assets/images/hdalogo.png"
                                 width="125"

@@ -5,7 +5,7 @@ import Background from '../public/assets/images/keyboard.jpeg'
 
 export const Main = () => {
     return (
-        <div className="bg-black ">
+        <div className="bg-black" id="home">
             <div className="relative z-10 bg-cover h-[750px] bg-keyboard opacity-40"></div>
             <div className="absolute top-0 z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 pt-80">
                 <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
