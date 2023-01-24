@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="relative">
             <div className="fixed w-full h-20 z-[99999] bg-primary shadow-xl">
                 <div className="flex items-center justify-between w-full h-full px-2">
-                    <div className="w-24">
+                    <div className="w-24 ml-4">
                         <Link
                             to="home"
                             spy={true}
