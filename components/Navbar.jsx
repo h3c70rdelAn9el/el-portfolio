@@ -90,8 +90,16 @@ const Navbar = () => {
                                 onSetActive={handleSetActive}>
                                 About
                             </Link>
-                            <Link href="/projects">
-                                <li className="">Projects</li>
+                            <Link
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-150}
+                                duration={500}
+                                className="cursor-pointer"
+                                onSetActive={handleSetActive}>
+                                Projects
                             </Link>
                         </ul>
                         <div

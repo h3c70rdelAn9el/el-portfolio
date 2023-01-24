@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div>
             <div className="max-w-5xl mx-auto">
-                <h2>Projects</h2>
+                <h2 id="projects">Projects</h2>
                 <section className="p-2 mx-8">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         {/* personal site */}
