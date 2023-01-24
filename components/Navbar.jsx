@@ -73,7 +73,7 @@ const Navbar = () => {
                                 to="skills"
                                 spy={true}
                                 smooth={true}
-                                offset={-100}
+                                offset={-150}
                                 duration={500}
                                 className="cursor-pointer"
                                 onSetActive={handleSetActive}>
@@ -84,7 +84,7 @@ const Navbar = () => {
                                 to="bio"
                                 spy={true}
                                 smooth={true}
-                                offset={50}
+                                offset={-150}
                                 duration={500}
                                 className="cursor-pointer"
                                 onSetActive={handleSetActive}>
