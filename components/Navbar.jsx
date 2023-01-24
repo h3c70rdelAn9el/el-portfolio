@@ -113,12 +113,12 @@ const Navbar = () => {
                     <div
                         className={
                             nav
-                                ? ' fixed left-0 top-0 w-[85%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
+                                ? ' fixed left-0 top-0 w-[100%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
                                 : 'fixed left-[-100%] top-0 w-[85%] sm:w-[70%] h-screen bg-gray-700 p-10 ease-in duration-300  z-[99999]'
                         }>
-                        <div className="relative flex flex-row w-full">
+                        <div className="relative flex flex-row justify-end w-full">
                             <div
-                                className="p-2 text-black bg-gray-400 rounded-full ml-96 hover:cursor-pointer"
+                                className="p-2 text-black bg-gray-400 rounded-full hover:cursor-pointer"
                                 onClick={handleNav}>
                                 <AiOutlineClose />
                             </div>

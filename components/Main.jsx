@@ -11,8 +11,9 @@ export const Main = () => {
                 style={{
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'cover',
+                    height: '730px',
                 }}></div>
-            <div className="absolute top-0 z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 pt-80">
+            <div className="absolute z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 -top-4 pt-80">
                 <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
                 <h1 className="text-3xl font-bold md:text-4xl">
                     I'm Hector del Angel
