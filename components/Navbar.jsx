@@ -59,7 +59,7 @@ const Navbar = () => {
                             className="cursor-pointer"
                             href="/">
                             <Image
-                                src="/../public/assets/images/hdalogo.png"
+                                src="/assets/images/hdalogo.png"
                                 width="125"
                                 height="125"
                                 alt="logo"

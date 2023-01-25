@@ -10,7 +10,7 @@ const Bio = () => {
             <div className="flex flex-col-reverse max-w-4xl mx-auto -mt-12 md:-mt-10 md:flex-row">
                 <div className="opacity-80 md:pt-24 md:pl-8">
                     <Image
-                        src="/../public/assets/images/profileselfie.jpeg"
+                        src="/assets/images/profileselfie.jpeg"
                         width={100}
                         alt="profile picture"
                         height={100}
