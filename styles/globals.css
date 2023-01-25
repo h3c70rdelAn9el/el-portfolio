@@ -25,7 +25,7 @@
     }
 
     button {
-        @apply px-4 py-2 uppercase shadow-xl shadow-gray-500 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-blue-800 hover:text-white;
+        @apply px-3 py-2 text-sm uppercase duration-300 border shadow-xl hover:border hover:border-gray-50 shadow-gray-500 rounded-xl bg-gradient-to-br from-primary to-secondary hover:bg-blue-800 hover:text-white hover:scale-x-105;
     }
 }
 

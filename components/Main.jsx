@@ -47,7 +47,9 @@ export const Main = () => {
                 </p>
                 <div className="flex flex-row mt-10">
                     <div className="p-2 text-white bg-gray-700 rounded-full hover:cursor-pointer">
-                        <AiFillGithub />
+                        <a href="https://github.com/h3c70rdelan9el">
+                            <AiFillGithub />
+                        </a>
                     </div>
                     <div className="p-2 ml-4 text-white bg-gray-700 rounded-full hover:cursor-pointer">
                         <AiFillLinkedin />

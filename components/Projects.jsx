@@ -51,6 +51,13 @@ const Projects = () => {
                                     for authentication and Vue Router for
                                     navigation.
                                 </p>
+                                <button className="text-gray-200">
+                                    <a
+                                        href="https://animation.com"
+                                        target="_blank">
+                                        Site
+                                    </a>
+                                </button>
                             </div>
                         </div>
 
@@ -94,9 +101,16 @@ const Projects = () => {
                                 </p>
                                 <p className="mt-1 text-sm text-gray-500">
                                     Personal project to display an art gallery.
-                                    Built with Vue, Tailwind,Nuxt, and deployed
+                                    Built with Vue, Tailwind, Nuxt, and deployed
                                     to Netlify.
                                 </p>
+                                <button className="text-gray-200">
+                                    <a
+                                        href="https://happy-pike-3b7015.netlify.app/"
+                                        target="_blank">
+                                        Demo
+                                    </a>
+                                </button>
                             </div>
                         </div>
 
@@ -122,6 +136,13 @@ const Projects = () => {
                                     Project for Musician utilzing Gridsome, Vue,
                                     and deployed to Netlify.
                                 </p>
+                                <button className="text-gray-200">
+                                    <a
+                                        href="https://h3c70r-gridsome-mus-site.netlify.app/"
+                                        target="_blank">
+                                        Demo
+                                    </a>
+                                </button>
                             </div>
                         </div>
 
@@ -147,6 +168,13 @@ const Projects = () => {
                                     Built with React, Gatsby, and utilized
                                     Bootstrap and deployed to Netlify.
                                 </p>
+                                <button className="text-gray-200">
+                                    <a
+                                        href="https://loving-elion-114567.netlify.app/"
+                                        target="_blank">
+                                        Demo
+                                    </a>
+                                </button>
                             </div>
                         </div>
 
@@ -167,6 +195,13 @@ const Projects = () => {
                                 <p className="mt-1 text-sm text-gray-500">
                                     Check out my personal Github.
                                 </p>
+                                <button className="text-sm text-gray-200">
+                                    <a
+                                        href="https://github.com/h3c70rdelan9el"
+                                        target="_blank">
+                                        Github
+                                    </a>
+                                </button>
                             </div>
                         </div>
                     </div>
