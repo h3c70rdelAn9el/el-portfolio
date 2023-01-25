@@ -16,7 +16,7 @@ export const Main = () => {
             <div className="absolute z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 -top-4 pt-80">
                 <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
                 <h1 className="text-3xl font-bold md:text-4xl waviy">
-                    I'm Hector del Angel.
+                    I am Hector del Angel.
                 </h1>
                 <p className="mt-2 text-2xl">
                     Just another full-stack developer
