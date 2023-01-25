@@ -12,6 +12,7 @@ const Bio = () => {
                     <Image
                         src="/../public/assets/images/profileselfie.jpeg"
                         width={100}
+                        alt="profile picture"
                         height={100}
                         className="w-48 p-2 mx-auto rounded-full opacity-65 md:w-64"
                     />

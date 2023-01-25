@@ -17,6 +17,7 @@ const Projects = () => {
                                     <Image
                                         src="/assets/images/personal-site.png"
                                         width="300"
+                                        alt="personal site"
                                         height="200"
                                         className="mx-auto rounded-md"
                                     />
@@ -38,6 +39,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/animation.png"
+                                        alt="animation.com"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -56,7 +58,8 @@ const Projects = () => {
                                 <button className="text-gray-200">
                                     <a
                                         href="https://animation.com"
-                                        target="_blank">
+                                        target="_blank"
+                                        rel="noreferrer">
                                         Site
                                     </a>
                                 </button>
@@ -69,6 +72,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/pineapple.png"
+                                        alt="pineapple"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -90,6 +94,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/art-gallery.png"
+                                        alt="art-gallery"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -109,7 +114,8 @@ const Projects = () => {
                                 <button className="text-gray-200">
                                     <a
                                         href="https://happy-pike-3b7015.netlify.app/"
-                                        target="_blank">
+                                        target="_blank"
+                                        rel="noreferrer">
                                         Demo
                                     </a>
                                 </button>
@@ -123,6 +129,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/musician.png"
+                                        alt="musician"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -141,7 +148,8 @@ const Projects = () => {
                                 <button className="text-gray-200">
                                     <a
                                         href="https://h3c70r-gridsome-mus-site.netlify.app/"
-                                        target="_blank">
+                                        target="_blank"
+                                        rel="noreferrer">
                                         Demo
                                     </a>
                                 </button>
@@ -154,6 +162,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/art-store.png"
+                                        alt="art-store"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -173,7 +182,8 @@ const Projects = () => {
                                 <button className="text-gray-200">
                                     <a
                                         href="https://loving-elion-114567.netlify.app/"
-                                        target="_blank">
+                                        target="_blank"
+                                        rel="noreferrer">
                                         Demo
                                     </a>
                                 </button>
@@ -186,6 +196,7 @@ const Projects = () => {
                                 <div className="">
                                     <Image
                                         src="/assets/images/github.png"
+                                        alt="github"
                                         width="300"
                                         height="200"
                                         className="mx-auto rounded-md"
@@ -200,7 +211,8 @@ const Projects = () => {
                                 <button className="text-sm text-gray-200">
                                     <a
                                         href="https://github.com/h3c70rdelan9el"
-                                        target="_blank">
+                                        target="_blank"
+                                        rel="noreferrer">
                                         Github
                                     </a>
                                 </button>

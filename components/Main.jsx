@@ -49,21 +49,24 @@ export const Main = () => {
                     <div className="social-link">
                         <a
                             href="https://github.com/h3c70rdelan9el"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <AiFillGithub />
                         </a>
                     </div>
                     <div className="social-link">
                         <a
                             href="https://www.linkedin.com/in/hectordelangel/"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <AiFillLinkedin />
                         </a>
                     </div>
                     <div className="social-link">
                         <a
                             href="mailto:hectordelangel@gmail.com"
-                            target="_blank">
+                            target="_blank"
+                            rel="noreferrer">
                             <AiOutlineMail />
                         </a>
                     </div>
