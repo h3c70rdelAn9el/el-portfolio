@@ -5,7 +5,9 @@ const Projects = () => {
     return (
         <div>
             <div className="max-w-5xl mx-auto">
-                <h2 id="projects">Projects</h2>
+                <h2 id="projects" className="py-4 text-3xl text-center">
+                    Projects
+                </h2>
                 <section className="p-2 mx-8">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         {/* personal site */}
@@ -25,7 +27,7 @@ const Projects = () => {
                                 <p className="mt-1 text-sm text-gray-500">
                                     Personal site built with Next.js and
                                     Tailwind CSS. Utilized React Hooks and
-                                    Next.js API routes and deployed to Vercel.
+                                    Next.js API routes and deployed to Netlify.
                                 </p>
                             </div>
                         </div>

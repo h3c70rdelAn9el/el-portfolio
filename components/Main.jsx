@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 // import keyboard from '../public/assets/images/keyboard.jpeg'
 
 import Background from '../public/assets/images/keyboard.jpeg'
@@ -46,13 +46,26 @@ export const Main = () => {
                     Have a peak around or you could reach me here:
                 </p>
                 <div className="flex flex-row mt-10">
-                    <div className="p-2 text-white bg-gray-700 rounded-full hover:cursor-pointer">
-                        <a href="https://github.com/h3c70rdelan9el">
+                    <div className="social-link">
+                        <a
+                            href="https://github.com/h3c70rdelan9el"
+                            target="_blank">
                             <AiFillGithub />
                         </a>
                     </div>
-                    <div className="p-2 ml-4 text-white bg-gray-700 rounded-full hover:cursor-pointer">
-                        <AiFillLinkedin />
+                    <div className="social-link">
+                        <a
+                            href="https://www.linkedin.com/in/hectordelangel/"
+                            target="_blank">
+                            <AiFillLinkedin />
+                        </a>
+                    </div>
+                    <div className="social-link">
+                        <a
+                            href="mailto:hectordelangel@gmail.com"
+                            target="_blank">
+                            <AiOutlineMail />
+                        </a>
                     </div>
                 </div>
             </div>

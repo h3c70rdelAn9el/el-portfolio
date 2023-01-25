@@ -27,6 +27,10 @@
     button {
         @apply px-3 py-2 text-sm uppercase duration-300 border shadow-xl hover:border hover:border-gray-50 shadow-gray-500 rounded-xl bg-gradient-to-br from-primary to-secondary hover:bg-blue-800 hover:text-white hover:scale-x-105;
     }
+
+    .social-link {
+        @apply p-2 ml-4 text-white duration-300 bg-gray-700 rounded-full hover:text-black hover:bg-primary hover:cursor-pointer;
+    }
 }
 
 .keyboard {
