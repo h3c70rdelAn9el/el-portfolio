@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 // import keyboard from '../public/assets/images/keyboard.jpeg'
 
 import Background from '../public/assets/images/keyboard.jpeg'
+import Weather from './Weather'
 
 export const Main = () => {
     return (
@@ -18,6 +19,14 @@ export const Main = () => {
                 <h1 className="text-3xl font-bold md:text-4xl waviy">
                     I am Hector del Angel.
                 </h1>
+                <div className="flex flex-row pt-2">
+                    <p className="mr-1">
+                        I am from Glendale, CA, where it is currently
+                    </p>
+                    <Weather />.
+                </div>
+                {/* weather */}
+
                 <p className="mt-2 text-2xl">
                     Just another full-stack developer
                 </p>
