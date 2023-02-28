@@ -196,13 +196,18 @@
 @keyframes animate {
     0% {
         transform: translateY(0) rotate(0deg);
-        opacity: 0.8;
+        opacity: 0.3;
+        border-radius: 15px;
+    }
+
+    50% {
+        opacity: 0.9;
         border-radius: 15px;
     }
 
     100% {
         transform: translateY(-1100px) rotate(720deg);
-        opacity: 0.5;
+        opacity: 0.2;
         border-radius: 15px;
     }
 }

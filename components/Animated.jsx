@@ -28,27 +28,25 @@ const Animated = () => {
 
             <div className="fixed top-0 z-50 area">
                 <ul className="m-auto text-gray-300 circles">
-                    <a href="#">
-                        <li>A</li>
-                    </a>
-                    <li className="pt-2 text-sm text-center">B</li>
+                    <li className="pt-5 text-3xl text-center">A</li>
+                    <li className="pt-2 text-center text-md">&</li>
                     <li className="pt-10 text-5xl text-center opacity-70">?</li>
-                    <li className="pt-8 text-4xl text-center opacity-70">C</li>
-                    <li className="pt-2 text-sm text-center">D</li>
-                    <li className="pt-2 text-sm text-center">E</li>
-                    <li className="pt-2 text-sm text-center">F</li>
+                    <li className="text-4xl text-center pt-7 opacity-70">C</li>
+                    <li className="pt-3 text-lg text-center">D</li>
+                    <li className="pt-8 text-4xl text-center">E</li>
+                    <li className="pt-3 text-lg text-center">F</li>
                     <li
-                        className="pt-8 text-center duration-300 hover:text-lg hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="pt-8 text-lg text-center text-gray-300 duration-300 ease-in-out hover:text-xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
                         Projects
                     </li>
                     <li
-                        className="pt-12 text-center duration-300 hover:text-lg hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="text-2xl text-center duration-300 pt-11 opacity-80 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
                         Skills
                     </li>
                     <li
-                        className="pt-16 text-center duration-300 hover:text-lg hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="text-2xl text-center duration-300 opacity-80 pt-14 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
                         About
                     </li>
