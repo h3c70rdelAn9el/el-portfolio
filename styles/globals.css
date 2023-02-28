@@ -211,3 +211,16 @@
         border-radius: 15px;
     }
 }
+
+.main-section {
+    z-index: 99999;
+    /* cednter this div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-link {
+    z-index: 99999;
+}

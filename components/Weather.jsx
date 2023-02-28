@@ -6,7 +6,7 @@ const Weather = () => {
     const url =
         // 'https://api.openweathermap.org/data/2.5/weather?q=Glendale&appid=ed48249aaa4749e27c2d0dea23b44f0f&units=imperial'
         // TODO: ADD ENV VARIABLE FOR API KEY
-        `https://api.openweathermap.org/data/2.5/weather?q=Glendale&appid=${process.env.NEXT_PUBLIC_WEATHER_API}&units=imperial`
+        `https://api.openweathermap.org/data/2.5/weather?q=91208&appid=${process.env.NEXT_PUBLIC_WEATHER_API}&units=imperial`
 
     useEffect(() => {
         axios.get(url).then((response) => {

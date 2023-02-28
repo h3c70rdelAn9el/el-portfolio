@@ -13,7 +13,7 @@ export const Main = () => {
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'cover',
                 }}></div>
-            <div className="absolute z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 -top-4 pt-80">
+            <div className="absolute z-50 flex flex-col items-center justify-center pb-4 mx-auto text-blue-200 w-[550px] main-section h-min">
                 <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
                 <h1 className="text-3xl font-bold md:text-4xl waviy">
                     I am Hector del Angel
@@ -33,7 +33,7 @@ export const Main = () => {
                 <p className="mt-2">
                     Have a peak around or you could reach me here:
                 </p>
-                <div className="flex flex-row mt-10">
+                <div className="flex flex-row mt-10 z-[99999]">
                     <div className="social-link">
                         <a
                             href="https://github.com/h3c70rdelan9el"
