@@ -6,18 +6,17 @@ import Weather from './Weather'
 
 export const Main = () => {
     return (
-        <div className="bg-black" id="home">
+        <div className="h-screen bg-black" id="home">
             <div
                 className="relative z-10 h-screen bg-cover bg-keyboard opacity-30"
                 style={{
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'cover',
-                    height: '730px',
                 }}></div>
             <div className="absolute z-20 flex flex-col items-center justify-center w-full pb-4 mx-auto text-blue-200 -top-4 pt-80">
                 <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
                 <h1 className="text-3xl font-bold md:text-4xl waviy">
-                    I am Hector del Angel.
+                    I am Hector del Angel
                 </h1>
                 <div className="flex flex-row pt-2">
                     <p className="mr-1">
@@ -28,7 +27,7 @@ export const Main = () => {
                 {/* weather */}
 
                 <p className="mt-2 text-2xl">
-                    Just another full-stack developer
+                    Just another full-stack d3veloper
                 </p>
                 <p className="text-xl">making my way through the webverse.</p>
                 <p className="mt-2">

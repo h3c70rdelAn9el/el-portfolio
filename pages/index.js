@@ -7,6 +7,7 @@ import Skills from '@/components/Skills'
 import Bio from '@/components/Bio'
 import Footer from '@/components/Footer'
 import Projects from '@/components/Projects'
+import Animated from '@/components/Animated'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,13 +27,14 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="block">
-                <div className="fixed z-50">
+                {/* <div className="fixed z-50">
                     <Navbar />
-                </div>
+                </div> */}
                 <Main />
-                <Skills />
+                <Animated />
+                {/* <Skills />
                 <Bio />
-                <Projects />
+                <Projects /> */}
                 <Footer />
             </div>
         </>
