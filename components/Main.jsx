@@ -20,7 +20,7 @@ export const Main = () => {
                 </h1>
                 <div className="flex flex-row pt-2">
                     <p className="mr-1">
-                        I am from Glendale, CA, where it is currently
+                        I&apos;m from Los Angeles, CA, where it is currently
                     </p>
                     <Weather />.
                 </div>
