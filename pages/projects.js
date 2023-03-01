@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
+import Layout from '@/components/layout'
 
 const Projects = () => {
     return (
-        <div>
-            <div className="max-w-5xl mx-auto">
-                <h2 id="projects" className="py-4 text-3xl text-center">
+        <Layout>
+            <div className="max-w-5xl mx-auto mt-20">
+                <h2
+                    id="projects"
+                    className="py-10 text-3xl text-center text-primary">
                     Projects
                 </h2>
                 <section className="p-2 mx-8">
@@ -221,7 +224,7 @@ const Projects = () => {
                     </div>
                 </section>
             </div>
-        </div>
+        </Layout>
     )
 }
 
