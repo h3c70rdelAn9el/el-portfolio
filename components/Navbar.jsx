@@ -6,8 +6,8 @@
 
 // export default Navbar
 import Image from 'next/image'
-// import Link from 'next/link'
-import { Link } from 'react-scroll'
+import Link from 'next/link'
+// import { Link } from 'react-scroll'
 import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -50,14 +50,7 @@ const Navbar = () => {
             <div className="fixed w-full h-20 z-[99999] bg-primary shadow-xl">
                 <div className="flex items-center justify-between w-full h-full px-2">
                     <div className="w-24 ml-4">
-                        <Link
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={700}
-                            className="cursor-pointer"
-                            href="/">
+                        <Link href="/" className="cursor-pointer">
                             <Image
                                 src="/assets/images/hdalogo.png"
                                 width="125"
@@ -68,9 +61,9 @@ const Navbar = () => {
                     </div>
                     <div className="relative w-full">
                         <ul className="flex-row justify-end hidden w-full gap-8 pr-8 uppercase md:flex">
-                            <Link
+                            {/* <Link
                                 activeClass="active"
-                                to="skills"
+                                to="skil"
                                 spy={true}
                                 smooth={true}
                                 offset={-150}
@@ -78,25 +71,23 @@ const Navbar = () => {
                                 className="cursor-pointer"
                                 onSetActive={handleSetActive}>
                                 Skills
+                            </Link> */}
+                            <Link
+                                activeClass="active"
+                                href="/skills"
+                                className="cursor-pointer">
+                                Skills
                             </Link>
                             <Link
                                 activeClass="active"
-                                to="bio"
-                                spy={true}
-                                smooth={true}
-                                offset={-150}
-                                duration={500}
+                                href="/about"
                                 className="cursor-pointer"
                                 onSetActive={handleSetActive}>
                                 About
                             </Link>
                             <Link
                                 activeClass="active"
-                                to="projects"
-                                spy={true}
-                                smooth={true}
-                                offset={-150}
-                                duration={500}
+                                href="/projects"
                                 className="cursor-pointer"
                                 onSetActive={handleSetActive}>
                                 Projects
@@ -141,11 +132,7 @@ const Navbar = () => {
                                         <Link
                                             onClick={handleNav}
                                             activeClass="active"
-                                            to="skills"
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-150}
-                                            duration={500}
+                                            href="skills"
                                             className="cursor-pointer hover:text-black"
                                             onSetActive={handleSetActive}>
                                             Skills
@@ -153,11 +140,7 @@ const Navbar = () => {
                                         <Link
                                             activeClass="active"
                                             onClick={handleNav}
-                                            to="bio"
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-150}
-                                            duration={500}
+                                            href="about"
                                             className="cursor-pointer hover:text-black"
                                             onSetActive={handleSetActive}>
                                             About
@@ -165,11 +148,7 @@ const Navbar = () => {
                                         <Link
                                             activeClass="active"
                                             onClick={handleNav}
-                                            to="projects"
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-150}
-                                            duration={500}
+                                            href="projects"
                                             className="cursor-pointer hover:text-black"
                                             onSetActive={handleSetActive}>
                                             Projects

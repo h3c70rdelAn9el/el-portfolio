@@ -5,6 +5,7 @@
 @layer base {
     body {
         @apply tracking-wide bg-slate-200 text-slate-800;
+        background: black;
     }
 
     h1,
@@ -29,7 +30,7 @@
     }
 
     .social-link {
-        @apply p-2 ml-4 text-white duration-300 bg-gray-700 rounded-full hover:text-black hover:bg-primary hover:cursor-pointer;
+        @apply p-2 ml-4 text-white duration-300 bg-gray-700 rounded-md hover:text-black hover:bg-primary hover:cursor-pointer;
     }
 }
 
@@ -65,3 +66,176 @@
     }
 }
 } */
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+}
+
+.context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.area {
+    width: 100%;
+    height: 100vh;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 15s linear infinite;
+    bottom: -150px;
+    z-index: 100;
+    cursor: default;
+}
+
+.circles li:nth-child(1) {
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    border-radius: 20%;
+}
+
+.circles li:nth-child(2) {
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+    left: 33%;
+    width: 130px;
+    height: 130px;
+    animation-delay: 3s;
+    animation-duration: 15s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+    left: 65%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 2s;
+    animation-duration: 10s;
+}
+
+.circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+    animation-duration: 14s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 7s;
+}
+
+/* Projects */
+.circles li:nth-child(8) {
+    left: 68%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0.8s;
+    animation-duration: 16s;
+    background: blue;
+}
+
+/* Skills */
+.circles li:nth-child(9) {
+    left: 13%;
+    width: 125px;
+    height: 125px;
+    animation-delay: 1s;
+    animation-duration: 15s;
+    background: blue;
+}
+
+/* About */
+.circles li:nth-child(10) {
+    left: 45%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 16s;
+    background: blue;
+}
+
+.circles li:nth-child(11) {
+    left: 85%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation-duration: 13s;
+    /* background: blue; */
+}
+
+#key:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.3;
+        border-radius: 15px;
+    }
+
+    50% {
+        opacity: 0.9;
+        border-radius: 15px;
+    }
+
+    100% {
+        transform: translateY(-1200px) rotate(720deg);
+        opacity: 0.2;
+        border-radius: 15px;
+    }
+}
+
+.main-section {
+    z-index: 99999;
+    /* cednter this div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-link {
+    z-index: 99999;
+}

@@ -8,6 +8,11 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['Open Sans', 'sans-serif'],
+                fira: ['Fira Code', 'monospace'],
+                source: ['Source Code Pro', 'monospace'],
+            },
             colors: {
                 primary: '#2C74B3',
                 secondary: '#144272',
