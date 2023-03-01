@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Animated = () => {
     return (
@@ -36,19 +37,25 @@ const Animated = () => {
                     <li className="pt-8 text-4xl text-center">E</li>
                     <li className="pt-3 text-lg text-center">F</li>
                     <li
-                        className="pt-8 text-lg text-center text-gray-300 duration-300 ease-in-out hover:text-xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="pt-8 text-lg text-center text-gray-300 duration-300 ease-in-out border-2 border-transparent hover:text-xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
-                        Projects
+                        <Link href="/projects" className="p-4">
+                            Projects
+                        </Link>
                     </li>
                     <li
-                        className="text-2xl text-center duration-300 pt-11 opacity-80 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="text-2xl text-center duration-300 border-2 border-transparent pt-11 opacity-80 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
-                        Skills
+                        <Link href="/skills" className="p-8">
+                            Skills
+                        </Link>
                     </li>
                     <li
-                        className="text-2xl text-center duration-300 opacity-80 pt-14 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
+                        className="pt-12 text-2xl text-center duration-300 border-2 border-transparent opacity-80 hover:text-3xl hover:border-2 hover:border-blue-500 hover:cursor-pointer"
                         id="key">
-                        About
+                        <Link href="/about" className="p-8">
+                            About
+                        </Link>
                     </li>
                 </ul>
             </div>
