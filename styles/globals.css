@@ -5,6 +5,7 @@
 @layer base {
     body {
         @apply tracking-wide bg-slate-200 text-slate-800;
+        background: black;
     }
 
     h1,
@@ -29,7 +30,7 @@
     }
 
     .social-link {
-        @apply p-2 ml-4 text-white duration-300 bg-gray-700 rounded-full hover:text-black hover:bg-primary hover:cursor-pointer;
+        @apply p-2 ml-4 text-white duration-300 bg-gray-700 rounded-md hover:text-black hover:bg-primary hover:cursor-pointer;
     }
 }
 
@@ -162,7 +163,7 @@
 
 /* Projects */
 .circles li:nth-child(8) {
-    left: 50%;
+    left: 68%;
     width: 100px;
     height: 100px;
     animation-delay: 0.8s;
@@ -172,7 +173,7 @@
 
 /* Skills */
 .circles li:nth-child(9) {
-    left: 20%;
+    left: 13%;
     width: 125px;
     height: 125px;
     animation-delay: 1s;
@@ -182,12 +183,21 @@
 
 /* About */
 .circles li:nth-child(10) {
-    left: 85%;
+    left: 45%;
     width: 150px;
     height: 150px;
     animation-delay: 0s;
     animation-duration: 13s;
     background: blue;
+}
+
+.circles li:nth-child(11) {
+    left: 85%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation-duration: 13s;
+    /* background: blue; */
 }
 
 #key:hover {
@@ -211,7 +221,7 @@
     }
 
     100% {
-        transform: translateY(-1100px) rotate(720deg);
+        transform: translateY(-1200px) rotate(720deg);
         opacity: 0.2;
         border-radius: 15px;
     }

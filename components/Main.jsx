@@ -13,27 +13,27 @@ export const Main = () => {
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'cover',
                 }}></div>
-            <div className="absolute z-50 flex flex-col items-center justify-center pb-4 mx-auto text-blue-200 w-[550px] main-section h-min">
-                <h1 className="text-5xl font-bold md:text-6xl">Hey there!</h1>
-                <h1 className="text-3xl font-bold md:text-4xl waviy">
-                    I am Hector del Angel
+            <div className="absolute z-50 font-source flex flex-col items-center justify-center pb-4 mx-auto text-blue-200 w-[550px] main-section h-min">
+                <h1 className="text-4xl md:text-6xl">Hey there!</h1>
+                <h1 className="text-3xl md:text-4xl waviy">
+                    I&apos;m Hector del Angel,
                 </h1>
                 <div className="flex flex-row pt-2">
-                    <p className="mr-1">
-                        I&apos;m from Los Angeles, CA, where it is currently
+                    <p className="mr-2 text-sm md:text-base">
+                        from Los Angeles, CA, where it is currently
                     </p>
-                    <Weather />.
+                    <Weather />
                 </div>
                 {/* weather */}
 
-                <p className="mt-2 text-2xl">
-                    Just another full-stack d3veloper
-                </p>
-                <p className="text-xl">making my way through the webverse.</p>
-                <p className="mt-2">
+                <di className="text-lg md:text-xl">
+                    <p className="mt-2">Just another full-stack d3veloper</p>
+                    <p>making my way through the webverse.</p>
+                </di>
+                <p className="mt-2 text-sm md:text-base">
                     Have a peak around or you could reach me here:
                 </p>
-                <div className="flex flex-row mt-10 z-[99999]">
+                <div className="flex flex-row mt-4 z-[99999]">
                     <div className="social-link">
                         <a
                             href="https://github.com/h3c70rdelan9el"
