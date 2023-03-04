@@ -1,3 +1,4 @@
+import ModalRoot from '@/components/ModalRoot'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -10,6 +11,8 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
+                {/* <ModalRoot /> */}
+                <div id="modal"></div>
             </body>
         </Html>
     )
