@@ -28,7 +28,7 @@ const Skills = () => {
                                 <Modal id="modal">
                                     <ModalOpenButton>
                                         <div
-                                            className="flex flex-row items-center justify-between p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card"
+                                            className="flex flex-row items-center justify-between p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card modal-card"
                                             style={skill.style}
                                             icon={icon.component}
                                             key={key}>

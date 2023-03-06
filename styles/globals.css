@@ -253,10 +253,12 @@
 
 .modal {
     position: fixed;
-    top: 25%;
     max-width: 600px;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    /* margin: auto; */
+    /* top: 25%; */
+    /* top: 50%; */
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
     /* background: #000; */
     padding: 20px;
     border-radius: 5px;
@@ -278,6 +280,25 @@
 
 .skill-card {
     cursor: pointer !important;
+}
+
+.modal {
+    z-index: 99999;
+    /* display: none; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.modal-div {
+    height: min-content;
+    top: 30%;
+    left: 20%;
+    margin: auto;
+    right: 20%;
+    /* transform: translate(-50%, -50%); */
+    z-index: 99999;
+    /* display: none; */
 }
 
 @keyframes blowUpContent {

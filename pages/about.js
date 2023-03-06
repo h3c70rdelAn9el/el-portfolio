@@ -58,12 +58,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                back home using Link
-                {/* <a href="" className="text-blue-500">
-                    Home
-                </a> */}
-            </div>
         </Layout>
     )
 }
