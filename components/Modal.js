@@ -38,7 +38,7 @@ const ModalContents = ({ children }) => {
                             x
                         </span>
                     </button>
-                    <div class="mt-10 text-left p-2 ml-2 sm:ml-3">
+                    <div class="mt-10 text-left p-2 ml-2 sm:ml-3 modal-content">
                         {children}
                     </div>
                 </div>

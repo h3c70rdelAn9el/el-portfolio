@@ -20,23 +20,12 @@ const Skills = () => {
                     <h2 className="-mb-8 text-3xl font-bold text-center text-primary">
                         Skills
                     </h2>
-                    {/*
-                    <div className="hidden md:block">
-                        <SkillsCard
-                            name="HTML"
-                            icon={FaHtml5}
-                            style={{
-                                color: '#e34c26',
-                                border: '1px solid #e34c26',
-                            }}
-                        />
-                    </div> */}
                     <div className="grid w-2/3 grid-cols-1 gap-2 p-2 pt-0 mx-auto sm:w-full lg:p-16 md:p-0 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                         {skillData.map((skill, key) => {
                             const icon = skill.icon
 
                             return (
-                                <Modal>
+                                <Modal id="modal">
                                     <ModalOpenButton>
                                         <div
                                             className="flex flex-row items-center justify-between p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card"
