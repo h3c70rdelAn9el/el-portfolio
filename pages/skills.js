@@ -4,12 +4,12 @@ import { Modal, ModalContents, ModalOpenButton } from '@/components/Modal'
 import { skillData, icons } from '@/data'
 
 const Skills = () => {
-    const skills = Object.keys(skillData).map((key) => {
-        return {
-            key: key,
-            value: skillData[key],
-        }
-    })
+    // const skills = Object.keys(skillData).map((key) => {
+    //     return {
+    //         // key: key,
+    //         value: skillData[key],
+    //     }
+    // })
 
     const [show, setShowModal] = useState(false)
 
