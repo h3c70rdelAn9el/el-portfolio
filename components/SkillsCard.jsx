@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import Modal from './Modal'
 import { ModalContents, ModalOpenButton } from '@/components/Modal'
 import TestModal from './TestModal'
+import { skillData } from '@/data'
 
-export const SkillsCard = (props) => {
+export const SkillsCard = (props, data) => {
+    // const data = skillData[props.name]
     const [show, setShowModal] = useState(false)
 
     return (
