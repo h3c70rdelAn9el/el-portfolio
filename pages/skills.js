@@ -45,22 +45,18 @@ const Skills = () => {
                                             key={key}>
                                             <p
                                                 className="text-xs sm:text-sm md:text-xl"
-                                                icon={skill.icons}>
+                                                icon={skill.icon}>
                                                 {skill.name}
                                             </p>
-                                            <div
-                                                className="text-lg md:text-xl lg:text-6xl"
-                                                icon={skill.icon}>
-                                                {/* {skill.icon} */}
-                                            </div>
-                                            {/* pass the icon property here */}
-                                            {/* {icon.component} */}
                                             <p className="text-lg md:text-xl lg:text-6xl">
                                                 {icon.component}
                                             </p>
                                         </div>
                                     </ModalOpenButton>
-                                    <ModalContents title="hi" show={show}>
+                                    <ModalContents
+                                        title="hi"
+                                        show={show}
+                                        style={skill.modalContents.style}>
                                         {skill.modalContents.body}
                                     </ModalContents>
                                 </Modal>
