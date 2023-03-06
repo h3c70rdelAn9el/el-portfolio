@@ -1,22 +1,6 @@
-import Image from 'next/image'
-import {
-    FaBootstrap,
-    FaGithub,
-    FaHtml5,
-    FaLaravel,
-    FaNodeJs,
-    FaReact,
-    FaVuejs,
-    FaAlpinejs,
-} from 'react-icons/fa'
-import { SiAlpinedotjs, SiTailwindcss } from 'react-icons/si'
-import { SkillsCard } from '../components/SkillsCard'
 import Layout from '@/components/layout'
 import { useState } from 'react'
 import { Modal, ModalContents, ModalOpenButton } from '@/components/Modal'
-import ModalRoot from '@/components/ModalRoot'
-import TestModal from '@/components/TestModal'
-import ModalService from '@/services/ModalService'
 import { skillData, icons } from '@/data'
 
 const Skills = () => {
@@ -29,10 +13,6 @@ const Skills = () => {
 
     const [show, setShowModal] = useState(false)
 
-    // const addModal = () => {
-    //     ModalService.open({ component: TestModal })
-    // }
-
     return (
         <Layout>
             <div className="w-full p-2 mt-28" id="skills">
@@ -40,184 +20,17 @@ const Skills = () => {
                     <h2 className="-mb-8 text-3xl font-bold text-center text-primary">
                         Skills
                     </h2>
-                    <div className="grid w-2/3 grid-cols-1 gap-2 p-2 pt-0 mx-auto sm:w-full lg:p-16 md:p-0 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
-                        {/* <SkillsCard
-                            name="React"
-                            icon={FaReact}
-                            style={{
-                                color: '#61DBFB',
-                                border: '1px solid #61DBFB',
-                            }}
-                        /> */}
-                        {/* <SkillsCard
-                            name="Vue"
-                            icon={FaVuejs}
-                            style={{
-                                color: '#42b883',
-                                border: '1px solid #42b883',
-                            }}
-                        /> */}
+                    {/*
+                    <div className="hidden md:block">
                         <SkillsCard
-                            name="Alpine.js"
-                            icon={SiAlpinedotjs}
-                            style={{ color: '#ffffff' }}
-                        />
-
-                        <SkillsCard
-                            name="Laravel"
-                            icon={FaLaravel}
+                            name="HTML"
+                            icon={FaHtml5}
                             style={{
-                                color: '#ff2d20',
-                                border: '1px solid #ff2d20',
+                                color: '#e34c26',
+                                border: '1px solid #e34c26',
                             }}
                         />
-
-                        <SkillsCard
-                            name="Node.js"
-                            icon={FaNodeJs}
-                            style={{
-                                color: '#3c873a',
-                                border: '1px solid #3c873a',
-                            }}
-                        />
-
-                        <SkillsCard
-                            name="Tailwind"
-                            icon={SiTailwindcss}
-                            style={{
-                                color: '#06b6d4',
-                                border: '1px solid #06b6d4',
-                            }}
-                        />
-
-                        <SkillsCard
-                            name="Bootstrap"
-                            icon={FaBootstrap}
-                            style={{
-                                // color: '#563d7c',
-                                // border: '1px solid #563d7c',
-                                color: 'white',
-                                border: '1px solid white',
-                            }}
-                        />
-
-                        <SkillsCard
-                            name="Git"
-                            icon={FaGithub}
-                            style={{
-                                color: '#ffffff',
-                                border: '1px solid white',
-                            }}
-                        />
-
-                        <div className="hidden md:block">
-                            <SkillsCard
-                                name="HTML"
-                                icon={FaHtml5}
-                                style={{
-                                    color: '#e34c26',
-                                    border: '1px solid #e34c26',
-                                }}
-                            />
-                        </div>
-
-                        <div
-                            type="button"
-                            class="cursor-pointer"
-                            onClick={() => setShowModal(true)}>
-                            <SkillsCard
-                                name="Git"
-                                icon={FaGithub}
-                                style={{
-                                    color: '#ffffff',
-                                    border: '1px solid white',
-                                }}
-                            />
-                            {/* <Modal
-                                show={showModal}
-                                onClose={() => setShowModal(false)}
-                                title=" Modal">
-                                <div className="flex flex-col items-center justify-center w-full h-full">
-                                    <h1 className="text-2xl font-bold text-center text-primary">
-                                        github modal
-                                    </h1>
-                                </div>
-                            </Modal> */}
-                            <Modal>
-                                <ModalOpenButton>
-                                    {/* <button>open this ! modal</button> */}
-                                    {/* add a button to open the modal */}
-
-                                    <div
-                                        className="flex flex-row items-center justify-between p-2 px-4 text-white align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl cursor-pointer lg:px-10 md:w-64 hover:scale-105"
-                                        onClick={() => setShowModal(true)}>
-                                        <p className="text-xs sm:text-sm md:text-xl">
-                                            Git
-                                        </p>
-                                        <FaGithub className="text-lg md:text-xl lg:text-6xl" />
-
-                                        {/* <p className="text-xs sm:text-sm md:text-xl"></p> */}
-                                        {/* <icon className="text-lg md:text-xl lg:text-6xl" /> */}
-                                    </div>
-                                </ModalOpenButton>
-                                <ModalContents title="Hi!" show={show}>
-                                    My proficiency in Git, has enabled me to
-                                    efficiently manage my code, track changes,
-                                    revert to previous versions if needed, and
-                                    collaborate with others. I have found this
-                                    is an invaluable skill in enhancing my
-                                    productivity and efficiency in my code.
-                                </ModalContents>
-                            </Modal>
-                            {/* <ReactSkill /> */}
-                        </div>
-                        {/*
-                        <div
-                            type="button"
-                            class="cursor-pointer"
-                            onClick={() => setShowModal(!showModal)}>
-                            <SkillsCard
-                                name="Git"
-                                icon={FaGithub}
-                                style={{
-                                    color: '#ffffff',
-                                    border: '1px solid white',
-                                }}
-                            />
-                            <Modal
-                                show={showModal}
-                                onClose={() => setShowModal(!showModal)}
-                                title="Github 2nd Modal">
-                                <div className="flex flex-col items-center justify-center w-full h-full">
-                                    <h1 className="text-2xl font-bold text-center text-primary">
-                                        github 2nd modal
-                                    </h1>
-                                </div>
-                            </Modal>
-                        </div> */}
-                        {/* <div className="shadow-xl">
-                            <p>Vue</p>
-                            <FaReact className="text-6xl" />
-                        </div> */}
-                        {/* <div className="shadow-xl">
-                            <p>React</p>
-                            <FaReact className="text-6xl" />
-                        </div>
-                        <p>Vue</p>
-                        <p>Alpine</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>Tailwind</p>
-                        <p>Bootstrap</p>
-                        <p>Node</p>
-                        <p>Laravel</p>
-                        <p>JavaScript</p> */}
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div>
+                    </div> */}
                     <div className="grid w-2/3 grid-cols-1 gap-2 p-2 pt-0 mx-auto sm:w-full lg:p-16 md:p-0 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
                         {skillData.map((skill, key) => {
                             const icon = skill.icon
@@ -226,7 +39,7 @@ const Skills = () => {
                                 <Modal>
                                     <ModalOpenButton>
                                         <div
-                                            className="flex flex-row items-center justify-between p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl cursor-default lg:px-10 md:w-64 hover:scale-105"
+                                            className="flex flex-row items-center justify-between p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card"
                                             style={skill.style}
                                             icon={icon.component}
                                             key={key}>

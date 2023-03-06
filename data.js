@@ -1,4 +1,5 @@
-import { FaReact, FaVuejs, FaAlpinejs, FaLaravel } from 'react-icons/fa'
+import { FaReact, FaVuejs, FaLaravel } from 'react-icons/fa'
+import { SiAlpinedotjs } from 'react-icons/si'
 
 export const skillData = [
     {
@@ -30,6 +31,18 @@ export const skillData = [
         },
     },
     {
+        name: 'Alpine.js',
+        icon: {
+            name: 'Alpine.js',
+            component: <SiAlpinedotjs />,
+        },
+        style: { color: '#ffffff', border: '1px solid #ffffff' },
+        modalContents: {
+            title: 'Alpine.js',
+            body: "Vue is a JavaScript framework that I have been using for the past year. I have found Vue to be a great tool for building web applications, especially when compared to React. Vue's syntax is much simpler than React's, which makes it easier to learn and use. In addition, Vue's documentation is much more comprehensive than React's, which makes it easier to find answers to questions. Overall, I have found Vue to be a great tool for building web applications, and I look forward to continuing to use it in the future.",
+        },
+    },
+    {
         name: 'Laravel',
         icon: {
             name: 'Laravel',
@@ -41,18 +54,6 @@ export const skillData = [
             body: "Laravel is a PHP framework that I have been using for the past year. I have found Laravel to be a great tool for building web applications, especially when compared to React. Laravel's syntax is much simpler than React's, which makes it easier to learn and use. In addition, Laravel's documentation is much more comprehensive than React's, which makes it easier to find answers to questions. Overall, I have found Laravel to be a great tool for building web applications, and I look forward to continuing to use it in the future.",
         },
     },
-    // {
-    //     name: 'Alpine.js',
-    //     icon: {
-    //         name: 'Alpine.js',
-    //         component: <FaAlpinejs />,
-    //     },
-    //     style: { color: '#ffffff', border: '1px solid #ffffff' },
-    //     modalContents: {
-    //         title: 'Alpine.js',
-    //         body: "Vue is a JavaScript framework that I have been using for the past year. I have found Vue to be a great tool for building web applications, especially when compared to React. Vue's syntax is much simpler than React's, which makes it easier to learn and use. In addition, Vue's documentation is much more comprehensive than React's, which makes it easier to find answers to questions. Overall, I have found Vue to be a great tool for building web applications, and I look forward to continuing to use it in the future.",
-    //     },
-    // },
 
     // {
     //     name: 'Vue',
