@@ -21,7 +21,7 @@ const Skills = () => {
                         Skills
                     </h2>
                     <div className="grid w-2/3 grid-cols-1 gap-2 p-2 px-8 pt-0 mx-auto sm:px-4 sm:gap-6 mt-14 sm:w-full sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
-                        {skillData.map((skill, key) => {
+                        {skillData.map((skill) => {
                             const icon = skill.icon
 
                             return (
@@ -30,8 +30,7 @@ const Skills = () => {
                                         <div
                                             className="flex flex-row items-center justify-between h-16 p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl md:h-full curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card modal-card"
                                             style={skill.style}
-                                            icon={icon.component}
-                                            key={key}>
+                                            icon={icon.component}>
                                             <p
                                                 className="text-md sm:text-sm md:text-xl"
                                                 icon={skill.icon}>
