@@ -29,9 +29,9 @@ const ModalContents = ({ children }) => {
     if (!isOpen) return null
     return (
         <div className="modal-overlay">
-            <div className="cursor-default ">
+            <div className="cursor-default">
                 <div className="modal-div">
-                    <div className="flex h-full p-6 mx-auto overflow-hidden bg-gray-200 border-0 rounded-lg outline-none sm:w-full modal focus:outline-none modal-div">
+                    <div className="flex h-full p-2 overflow-hidden text-sm bg-gray-200 border-0 rounded-lg outline-none md:p-6 sm:text-base min-w-content sm:w-full modal focus:outline-none modal-div">
                         <button
                             className="absolute z-50 p-2 text-3xl font-semibold leading-none text-black bg-transparent border-0 rounded-full outline-none opacity-50 top-2 right-2 focus:outline-none hover:opacity-75"
                             onClick={() => setIsOpen(false)}>
@@ -39,7 +39,7 @@ const ModalContents = ({ children }) => {
                                 x
                             </span>
                         </button>
-                        <div class="mt-10 text-left p-2 ml-2 sm:ml-3 modal-content pb-4">
+                        <div class="mt-10 text-left p-1 ml-2 sm:ml-3 modal-content pb-4">
                             {children}
                         </div>
                     </div>
