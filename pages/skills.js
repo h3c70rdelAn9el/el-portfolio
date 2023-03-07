@@ -4,12 +4,12 @@ import { Modal, ModalContents, ModalOpenButton } from '@/components/Modal'
 import { skillData, icons } from '@/data'
 
 const Skills = () => {
-    // const skills = Object.keys(skillData).map((key) => {
-    //     return {
-    //         // key: key,
-    //         value: skillData[key],
-    //     }
-    // })
+    const skills = Object.keys(skillData).map((key) => {
+        return {
+            // key: key,
+            value: skillData[key],
+        }
+    })
 
     const [show, setShowModal] = useState(false)
 
@@ -25,7 +25,7 @@ const Skills = () => {
                             const icon = skill.icon
 
                             return (
-                                <Modal id="modal">
+                                <Modal id="modal" key={skill.name}>
                                     <ModalOpenButton>
                                         <div
                                             className="flex flex-row items-center justify-between h-16 p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl md:h-full curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card modal-card"
