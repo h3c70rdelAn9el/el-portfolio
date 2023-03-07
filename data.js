@@ -22,7 +22,7 @@ export const skillData = [
         },
         modalContents: {
             title: 'React',
-            body: "In the past five years, I have intermittently worked with React and found it to be a challenging and rewarding experience. Despite struggling initially due to my limited knowledge of JavaScript, I grew to love it thanks to my persistence and eagerness to learn. React's powerful features, including its ability to create reusable components and use a declarative approach to building user interfaces, make it easy to manage complex applications.  Overall, React remains one of my favorite tools to work with, and I am excited to continue exploring its capabilities in the future.",
+            body: "I've worked with React on and off for five years, finding it both challenging and rewarding. Despite early struggles due to my limited JavaScript knowledge, I grew to love it for its powerful features, including creating reusable components and using a declarative approach to building user interfaces. The extensive library of tools and packages, as well as the supportive community, make it easy to build virtually anything. React is one of my favorite tools to work with, and I'm eager to continue exploring its capabilities.",
         },
     },
 
@@ -35,7 +35,7 @@ export const skillData = [
         style: { color: '#42b883', border: '1px solid #42b883' },
         modalContents: {
             title: 'Vue',
-            body: "Vue is a JavaScript framework that I have been using for about three years now. I have found Vue to be a great tool for building web applications, especially when compared to React. Vue's syntax is much simpler than React's, which makes it easier to learn and use. I have also found Vue to be a bit more adaptable than React, which makes it easier to use in a variety of situations.",
+            body: "Vue is a JavaScript framework that I have been using for about three years now. I have found it to be a great tool for building web applications, especially when compared to React. Vue's syntax is much simpler than React's, which makes it easier to learn and use. I have also found Vue to be a bit more adaptable than React, which makes it easier to use in a variety of situations.",
         },
     },
     {
@@ -47,7 +47,7 @@ export const skillData = [
         style: { color: '#ffffff', border: '1px solid #ffffff' },
         modalContents: {
             title: 'Alpine.js',
-            body: 'I have been using Alpine.js for about two years now and have grown to love it. Unlinke React and Vue, Alpine.js is used to interject JavaScript directly into HTML. This makes it easy to add dynamic functionality to a website without having to write a lot of code or add a lot of excess boilerplate. I have found it to be invaluable when writing for Laravel using Blade components.',
+            body: 'I have been using Alpine.js for about two years now and have grown to love it. Unlinke React and Vue, Alpine.js is used to interject JavaScript directly into HTML. This makes it easy to add dynamic functionality to a website without having to write a lot of excess code or add a lot of excess boilerplate. I have found it to be invaluable when writing for Laravel using Blade components.',
         },
     },
     {
@@ -63,7 +63,7 @@ export const skillData = [
         style: { color: '#ff3e00', border: '1px solid #ff3e00' },
         modalContents: {
             title: 'Svelte',
-            body: "Even though I have only been using Svelte for less than a year, I have found it to be much easier to use than React or Vue. It is a JavaScript framework that compiles to vanilla JavaScript, which makes it much easier to use. It's layout syntax is also much simpler than React or Vue, which makes it easier to learn and use. This is a framework that I really have enjoyed using and look forward to using in the future.",
+            body: "Even though I have only been using Svelte for less than a year, I have found it to be much easier to use than React or Vue. It is a JavaScript framework that compiles to vanilla JavaScript, which makes it much easier to use. It's layout syntax is also much simpler than React or Vue, which makes it easier to learn and use. This is a framework that I really have enjoyed using and look forward to continue builing apps with it.",
         },
     },
     {
@@ -75,7 +75,7 @@ export const skillData = [
         style: { color: '#ff2d20', border: '1px solid #ff2d20' },
         modalContents: {
             title: 'Laravel',
-            body: "My experience with Laravel has been about three years. Unlike Node.js, Laravel is a framework that includes a ton of built-in functionality, including a database migration system, a templating engine, and a powerful ORM straight out of the box. It can also be used with any front-end framework, including React, Vue, Svelte, and Alpine.js.  I'm excited to continue learning Laravel and exploring its many capabilities in the future.",
+            body: "My experience with Laravel has been about three years. Unlike Node.js, Laravel is a framework that includes a ton of built-in functionality, including a database migration system, a templating engine, and a powerful ORM straight out of the box. It can also be used with any front-end framework, including React, Vue, Svelte, or Alpine.js.  I'm excited to continue learning Laravel and exploring building web applications with its many capabilities.",
         },
     },
     {
@@ -103,7 +103,7 @@ export const skillData = [
         modalContents: {
             title: 'Tailwind',
             style: { color: '#fff', backgroundColor: '#38b2ac' },
-            body: 'For about three years, I have been using Tailwind CSS to build websites and applications. It has become my go-to tool for building responsive websites and applications. I have found it to be a great tool for quickly building websites and applications without having to write a lot of CSS. It also makes it easy to create a consistent design across multiple pages. I look forward to continuing to use Tailwind CSS in the future.',
+            body: 'I have been relying on Tailwind CSS for the past three years to develop both websites and applications. Its utility-first approach has proven invaluable in constructing responsive web pages and interfaces with speed and ease, without the need for extensive custom CSS. Not only that, but Tailwind CSS also easily facilitates the creation of a cohesive design across various pages, making it a preferred tool of mine. I am excited to continue utilizing Tailwind CSS for my upcoming projects.',
         },
     },
     {
