@@ -20,7 +20,7 @@ const Skills = () => {
                     <h2 className="-mb-8 text-3xl font-bold text-center text-primary">
                         Skills
                     </h2>
-                    <div className="grid w-2/3 grid-cols-1 gap-2 p-2 px-8 pt-0 mx-auto sm:px-4 sm:gap-6 mt-14 sm:w-full sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+                    <div className="grid w-2/3 max-w-5xl grid-cols-1 gap-4 p-2 px-8 pt-0 mx-auto lg:w-full sm:px-4 sm:gap-6 mt-14 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10">
                         {skillData.map((skill) => {
                             const icon = skill.icon
 
@@ -28,7 +28,7 @@ const Skills = () => {
                                 <Modal id="modal" key={skill.name}>
                                     <ModalOpenButton>
                                         <div
-                                            className="flex flex-row items-center justify-between h-16 p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl md:h-full curson-pointer lg:px-10 md:w-64 hover:scale-105 skill-card modal-card"
+                                            className="flex flex-row items-center justify-between h-16 p-2 px-4 align-middle duration-300 ease-in bg-gray-700 border rounded-md shadow-xl md:h-full curson-pointer lg:px-10 lg:w-64 hover:scale-105 skill-card modal-card"
                                             style={skill.style}
                                             icon={icon.component}>
                                             <p
