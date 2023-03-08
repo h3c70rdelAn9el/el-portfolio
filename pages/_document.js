@@ -8,7 +8,7 @@ export default function Document() {
             <link
                 href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Source+Code+Pro&display=swap"
                 rel="stylesheet"></link>
-            <body>
+            <body className="overflow-x-hidden">
                 <Main />
                 <NextScript />
                 {/* <ModalRoot /> */}
