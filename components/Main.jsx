@@ -6,7 +6,7 @@ import Weather from './Weather'
 
 export const Main = () => {
     return (
-        <div className="h-screen bg-black" id="home">
+        <div className="h-screen overflow-hidden bg-black" id="home">
             <div
                 className="relative z-10 h-screen bg-cover bg-keyboard opacity-30"
                 style={{

@@ -3,9 +3,10 @@ import Link from 'next/link'
 
 const Animated = () => {
     return (
-        <div>
+        <div className="">
+            {/* add an overflow-hidden in the globals.css */}
             <div className="fixed top-0 z-50 h-screen area">
-                <ul className="m-auto text-gray-300 circles">
+                <ul className="m-auto overflow-hidden text-gray-300 circles">
                     <li className="pt-5 text-3xl text-center">A</li>
                     <li className="pt-2 text-center text-md">&</li>
                     <li className="pt-10 text-5xl text-center opacity-70">?</li>
