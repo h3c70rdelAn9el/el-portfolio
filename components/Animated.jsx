@@ -5,14 +5,16 @@ const Animated = () => {
     return (
         <div className="">
             {/* add an overflow-hidden in the globals.css */}
-            <div className="fixed top-0 z-50 h-screen area">
-                <ul className="m-auto overflow-hidden text-gray-300 circles">
+            <div className="fixed top-0 z-50 h-screen overflow-x-hidden area">
+                <ul className="w-1/2 m-auto overflow-hidden text-gray-300 circles">
                     <li className="pt-5 text-3xl text-center">A</li>
                     <li className="pt-2 text-center text-md">&</li>
                     <li className="pt-10 text-5xl text-center opacity-70">?</li>
                     <li className="text-4xl text-center pt-7 opacity-70">C</li>
                     <li className="pt-3 text-lg text-center opacity-70">D</li>
-                    <li className="pt-8 text-4xl text-center opacity-70">E</li>
+                    <li className="hidden pt-8 text-4xl text-center opacity-70 sm:block">
+                        E
+                    </li>
                     <li className="pt-3 text-lg text-center opacity-70">F</li>
                     <li
                         className="pt-8 pr-8 overflow-hidden text-lg text-center duration-300 border-2 border-transparent hover:text-blue-400 opacity-80 hover:border-2 hover:border-blue-500 hover:cursor-pointer"
