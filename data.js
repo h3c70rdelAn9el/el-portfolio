@@ -56,10 +56,6 @@ export const skillData = [
             name: 'Svelte',
             component: <SiSvelte />,
         },
-        // style: { color: '#ff2d20', border: '1px solid #ff2d20' },
-        // style: { color: '#3c873a', border: '1px solid #3c873a' },
-        // style: { color: '#38b2ac', border: '1px solid #38b2ac' },
-        // style: { color: '#fff', border: '1px solid #fff' },
         style: { color: '#ff3e00', border: '1px solid #ff3e00' },
         modalContents: {
             title: 'Svelte',
@@ -84,7 +80,6 @@ export const skillData = [
             name: 'Node',
             component: <FaNode />,
         },
-        // style: { color: '#ff2d20', border: '1px solid #ff2d20' },
         style: { color: '#3c873a', border: '1px solid #3c873a' },
         modalContents: {
             title: 'Node.js',
@@ -97,8 +92,6 @@ export const skillData = [
             name: 'Tailwind',
             component: <TbBrandTailwind />,
         },
-        // style: { color: '#ff2d20', border: '1px solid #ff2d20' },
-        // style: { color: '#3c873a', border: '1px solid #3c873a' },
         style: { color: '#38b2ac', border: '1px solid #38b2ac' },
         modalContents: {
             title: 'Tailwind',
@@ -112,9 +105,6 @@ export const skillData = [
             name: 'Github',
             component: <FaGithub />,
         },
-        // style: { color: '#ff2d20', border: '1px solid #ff2d20' },
-        // style: { color: '#3c873a', border: '1px solid #3c873a' },
-        // style: { color: '#38b2ac', border: '1px solid #38b2ac' },
         style: { color: '#fff', border: '1px solid #fff' },
         modalContents: {
             title: 'Github',
@@ -127,27 +117,106 @@ export const skillData = [
             name: 'HTML',
             component: <FaHtml5 />,
         },
-        // style: { color: '#ff2d20', border: '1px solid #ff2d20' },
-        // style: { color: '#3c873a', border: '1px solid #3c873a' },
-        // style: { color: '#38b2ac', border: '1px solid #38b2ac' },
-        // style: { color: '#fff', border: '1px solid #fff' },
         style: { color: '#ff3e00', border: '1px solid #ff3e00' },
         modalContents: {
             title: 'HTML',
             body: 'Make fun of it all you want, but HTML is still the foundation of the web. I have been using HTML for about 10 years now and have seen it evolve from a simple markup language to a powerful tool for building websites and applications.  So while it may not be the most exciting language, it is still a very important one.',
         },
     },
+]
 
-    // {
-    //     name: 'Tailwind',
-    //     icon: {
-    //         name: 'Tailwind CSS',
-    //         component: <TbBrandTailwind />,
-    //     },
-    //     style: { color: '#38b2ac', border: '1px solid #38b2ac' },
-    //     modalContents: {
-    //         title: 'Node.js',
-    //         body: 'For approximately five years, I have utilized Node and appreciate its straightforward deployment process compared to Laravel. Additionally, Node is a JavaScript framework, whereas Laravel is based on PHP. This makes it simpler at times to incorporate a JavaScript framework for frontend development.',
-    //     },
-    // },
+export const projects = [
+    {
+        name: 'Personal Site',
+        excerpt: 'Personal site built with Next.js and Tailwind CSS.',
+        description:
+            "This is my personal site.  It's built with React, Next, and Tailwind.  It utilizes standard React hooks and the ease of Next.js for routing.  It also utilizes Tailwind CSS for styling.  I have incorporated stylish CSS animations that make the floating keys on the homepage appear more visually appealing.  The multiple modals were a neat trick I picked up from Kent C. Dodds, as a way to easily utilize them anywere on the app.  I built this site to demonstrate my ability to build a full-stack application from scratch.  I used Netlify's ease of use to deploy",
+        image: {
+            src: '/assets/images/personal-site.png',
+            alt: 'Personal Site',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'Animation.com',
+        excerpt: 'NFT marketplace built with Laravel, Tailwind, and Alpine.js.',
+        description:
+            "This is a project I had great pleasure in being a part of.  It's an NFT marketplace built with Laravel, Tailwind, and Alpine.js.  I was responsible for the frontend development of the site from the designers design.  I utilized Tailwind CSS to build the site's responsive design.  I also utilized Alpine.js to build the site's frontend functionality.",
+        image: {
+            name: 'Animation.com',
+            src: '/assets/images/animation.png',
+            alt: 'Animation.com',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'Pineapple Support',
+        excerpt:
+            'App for a counseling company built with Laravel, Tailwind, and Alpine.js.',
+        description:
+            "This is an app that I developed an app for a counseling company, using Laravel, Tailwind, and Alpine.js. To achieve a responsive design, I utilized Tailwind CSS. For frontend functionality, I utilized Alpine.js. Additionally, To facilitate secure login and session management for therapists and their clients, I made use of Laravel's built-in user authentication and database setup features. The app allows therapists to log in and add sessions for their clients. ",
+        image: {
+            name: 'Pineapple Support',
+            src: '/assets/images/pineapple.png',
+            alt: 'Pineapple Support',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'Art Gallery',
+        excerpt: 'Art gallery website built with Vue, Nuxt, and Tailwind.',
+        description:
+            'I created a project for a client that showcases an art gallery/store using Vue, Tailwind, Nuxt, and Contentful as its CMS. The website boasts a clean and straightforward design that is fully responsive to any device.  This site also includes a carousel on homepage.',
+        image: {
+            name: 'Art Gallery',
+            src: '/assets/images/art-gallery.png',
+            alt: 'Art Gallery',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'Musician Portfolio',
+        excerpt:
+            'Portfolio website for a musician built with Vue, Tailwind, and Contentful.',
+        description:
+            "I created a captivating project for a musician's portfolio, utilizing Vue, Tailwind, and Contentful as the CMS. The website boasts a fully responsive design, ensuring seamless user experience across all devices. Visitors can appreciate the musician's talents without hindrance, accessing the website from any device. I am proud to have helped my client achieve their vision through this project.",
+        image: {
+            name: 'Musician Portfolio',
+            src: '/assets/images/musician.png',
+            alt: 'Musician Portfolio',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'Art Store',
+        excerpt:
+            'Art store website built with React, Bootstrap, Gatsby, and Contentful.',
+        description:
+            'For a client, I developed a website that exhibits an art gallery/store using React, Bootstrap, Gatsby, and Contentful as the CMS. This site also demonstrates my proficiency in Bootstrap, Gatsby, and Snipcart.',
+        image: {
+            name: 'Art Store',
+            src: '/assets/images/art-store.png',
+            alt: 'Art Store',
+            width: '300px',
+            height: '200px',
+        },
+    },
+    {
+        name: 'My Github',
+        excerpt: 'My Github profile.',
+        description:
+            "This is my Github.  I have been using Git since I started my coding journey.  It's a great tool for version control and collaboration.  I have used it to collaborate on projects with others and a great way to keep track of where I am in my projects.",
+        image: {
+            name: 'My Github',
+            src: '/assets/images/github.png',
+            alt: 'My Github',
+            width: '300px',
+            height: '200px',
+        },
+    },
 ]

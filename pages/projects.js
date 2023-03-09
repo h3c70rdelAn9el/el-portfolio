@@ -1,8 +1,12 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from '@/components/layout'
+import { Modal, ModalContents, ModalOpenButton } from '@/components/Modal'
+import { projects } from '@/data'
 
 const Projects = () => {
+    const [show, setShowModal] = useState(false)
+
     return (
         <Layout>
             <div className="max-w-5xl mx-auto mt-20">
@@ -11,6 +15,38 @@ const Projects = () => {
                     className="py-10 text-3xl text-center text-primary">
                     Projects
                 </h2>
+
+                <section className="grid grid-cols-1 gap-4 p-2 mx-8 sm:grid-cols-2 lg:grid-cols-4">
+                    {projects.map((project) => {
+                        return (
+                            <Modal id="modal" key={project.name}>
+                                <ModalOpenButton>
+                                    <div className="flex flex-col items-center justify-between p-4 bg-gray-200 rounded-lg shadow-lg">
+                                        <div className="">
+                                            <Image
+                                                src={project.image}
+                                                alt={project.name}
+                                                width="300"
+                                                height="200"
+                                                className="mx-auto rounded-md"
+                                            />
+                                        </div>
+                                        <h3 className="mt-2 text-lg font-semibold">
+                                            {project.name}
+                                        </h3>
+                                        <p className="mt-1 text-sm text-gray-500">
+                                            {project.excerpt}
+                                        </p>
+                                    </div>
+                                </ModalOpenButton>
+                                <ModalContents title={project.name} show={show}>
+                                    {project.description}
+                                </ModalContents>
+                            </Modal>
+                        )
+                    }, [])}
+                </section>
+
                 <section className="p-2 mx-8">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         {/* personal site */}
