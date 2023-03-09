@@ -138,10 +138,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
-            target: '_blank',
-            rel: 'noopener noreferrer',
+            name: 'Personal site',
+            url: '',
+            style: { display: 'none' },
         },
     },
     {
@@ -157,8 +156,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            name: 'Animation.com',
+            url: 'https://animation.com',
+            style: { display: 'block' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
@@ -168,7 +168,7 @@ export const projects = [
         excerpt:
             'App for a counseling company built with Laravel, Tailwind, and Alpine.js.',
         description:
-            "This is an app that I developed an app for a counseling company, using Laravel, Tailwind, and Alpine.js. To achieve a responsive design, I utilized Tailwind CSS. For frontend functionality, I utilized Alpine.js. Additionally, To facilitate secure login and session management for therapists and their clients, I made use of Laravel's built-in user authentication and database setup features. The app allows therapists to log in and add sessions for their clients. ",
+            "This is an app that I developed an app for a counseling company, using Laravel, Tailwind, and Alpine.js. To achieve a responsive design, I utilized Tailwind CSS. For frontend functionality, I utilized Alpine.js. Additionally, To facilitate secure login and session management for therapists and admins, I made use of Laravel's Jetstream authentication and database setup features. The app allows therapists to log in, add sessions for their clients, view sessions and client history. ",
         image: {
             name: 'Pineapple Support',
             src: '/assets/images/pineapple.png',
@@ -177,8 +177,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            name: 'Pineapple',
+            url: 'https://pineapplesupport.org',
+            style: { display: 'none' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
@@ -196,8 +197,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            name: 'Art Gallery',
+            url: 'https://happy-pike-3b7015.netlify.app/',
+            style: { display: 'block' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
@@ -216,8 +218,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            name: 'Musician Portfolio',
+            url: 'https://h3c70r-gridsome-mus-site.netlify.app/',
+            style: { display: 'block' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
@@ -237,7 +240,8 @@ export const projects = [
         },
         link: {
             name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            url: 'https://loving-elion-114567.netlify.app/',
+            style: { display: 'block' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
@@ -255,8 +259,9 @@ export const projects = [
             height: '200px',
         },
         link: {
-            name: 'Art Store',
-            href: 'https://art-store.netlify.app/',
+            name: 'Github',
+            url: 'https://github.com/h3c70rdelan9el',
+            style: { display: 'block' },
             target: '_blank',
             rel: 'noopener noreferrer',
         },
