@@ -41,6 +41,19 @@ const Projects = () => {
                                 </ModalOpenButton>
                                 <ModalContents title={project.name} show={show}>
                                     {project.description}
+                                    {/* <button>
+                                    <a
+                                        // href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        {project.link.url}
+                                    </a>
+                                </button> */}
+                                    <div className="flex">
+                                        <button className="mx-auto">
+                                            <a href={project.link.url}>Site</a>
+                                        </button>
+                                    </div>
                                 </ModalContents>
                             </Modal>
                         )

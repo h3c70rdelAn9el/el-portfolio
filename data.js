@@ -137,6 +137,12 @@ export const projects = [
             width: '300px',
             height: '200px',
         },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
+        },
     },
     {
         name: 'Animation.com',
@@ -149,6 +155,12 @@ export const projects = [
             alt: 'Animation.com',
             width: '300px',
             height: '200px',
+        },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
         },
     },
     {
@@ -164,6 +176,12 @@ export const projects = [
             width: '300px',
             height: '200px',
         },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
+        },
     },
     {
         name: 'Art Gallery',
@@ -176,6 +194,12 @@ export const projects = [
             alt: 'Art Gallery',
             width: '300px',
             height: '200px',
+        },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
         },
     },
     {
@@ -191,6 +215,12 @@ export const projects = [
             width: '300px',
             height: '200px',
         },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
+        },
     },
     {
         name: 'Art Store',
@@ -205,6 +235,12 @@ export const projects = [
             width: '300px',
             height: '200px',
         },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
+        },
     },
     {
         name: 'My Github',
@@ -217,6 +253,12 @@ export const projects = [
             alt: 'My Github',
             width: '300px',
             height: '200px',
+        },
+        link: {
+            name: 'Art Store',
+            href: 'https://art-store.netlify.app/',
+            target: '_blank',
+            rel: 'noopener noreferrer',
         },
     },
 ]
