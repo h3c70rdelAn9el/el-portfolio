@@ -1,4 +1,3 @@
-import ModalRoot from '@/components/ModalRoot'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -11,7 +10,6 @@ export default function Document() {
             <body className="overflow-x-hidden">
                 <Main />
                 <NextScript />
-                {/* <ModalRoot /> */}
                 <div id="modal"></div>
             </body>
         </Html>
