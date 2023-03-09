@@ -309,10 +309,6 @@
     /* display: none; */
 }
 
-.modal-card {
-    cursor: pointer;
-}
-
 @keyframes blowUpContent {
     0% {
         transform: scale(0.3);
